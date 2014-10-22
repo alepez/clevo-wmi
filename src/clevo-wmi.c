@@ -50,7 +50,7 @@ MODULE_VERSION(CLEVO_WMI_VER);
 struct clevo_wmi
 {
 	struct workqueue_struct *led_workqueue;
-}
+};
 
 static struct workqueue_struct *led_workqueue;
 struct platform_device *clevo_platform_device;
